@@ -1,0 +1,82 @@
+body {
+    font-family: 'Lato', sans-serif;
+    width: 300px;
+    background-color: black;
+}
+
+.header_post {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.main {
+    background-color: white;
+    padding-bottom: 20px;
+}
+
+.likes{
+    margin: 10px;
+    display: flex;
+    flex-flow: row;
+}
+.users_liked{
+    font-weight: bold;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.ellipsis {
+    justify-content: end;
+    width: 100%;
+    display: flex;
+    margin-right: 10px;
+}
+
+.title_post h1,
+p {
+    font-size: xx-small;
+    margin: 0px;
+}
+
+.title_post h1 {
+    font-size: 11px;
+}
+
+
+.title_rigoberta {
+    font-size: xx-small;
+}
+
+.imagen {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%
+}
+
+.icono_header {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.icons_body {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    gap: 5px;
+    margin-left: 10px;
+}
+.icon_bookmark{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    margin-right: 10px;
+}
+
+.description {
+    margin-left: 10px;
+    margin-right: 10px;
+}
